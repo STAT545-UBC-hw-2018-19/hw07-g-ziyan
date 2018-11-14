@@ -1,0 +1,5 @@
+box_cox_trans           Apply Box-Cox transformation
+pow                     Generic Power Function
+powers                  Convenient Computation of Powers
+square                  Apply a useful power
+tenvec                  Integer vector from 1 to 10
