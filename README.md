@@ -6,6 +6,5 @@
 - [README.md](https://github.com/STAT545-UBC-students/hw07-g-ziyan/blob/master/powers-master/README.md)
 - [vignette.Rmd](https://github.com/STAT545-UBC-students/hw07-g-ziyan/blob/master/powers-master/vignettes/using_powers.Rmd)
 - [box_cox_trans.R](https://github.com/STAT545-UBC-students/hw07-g-ziyan/blob/master/powers-master/R/box_cox_trans.R) 
-
 The function I defined
 
