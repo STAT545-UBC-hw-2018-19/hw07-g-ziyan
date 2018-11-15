@@ -18,7 +18,7 @@ You can install powers from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+devtools::install_github("https://github.com/STAT545-UBC-students/hw07-g-ziyan")
 ```
 
 ## Example
