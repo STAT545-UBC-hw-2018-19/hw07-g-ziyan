@@ -18,7 +18,11 @@ You can install powers from github with:
 
 ``` r
 # install.packages("devtools")
+<<<<<<< HEAD
 devtools::install_github("STAT545-UBC-students/hw07-g-ziyan/tree/master/powers-master")
+=======
+devtools::install_github("https://github.com/STAT545-UBC-students/hw07-g-ziyan")
+>>>>>>> cdc067b21b46809475c8a13db0d70640c4bc572c
 ```
 
 ## Example
