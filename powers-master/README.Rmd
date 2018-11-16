@@ -26,7 +26,7 @@ You can install powers from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+devtools::install_github("STAT545-UBC-students/hw07-g-ziyan/tree/master/powers-master")
 ```
 
 ## Example
@@ -34,7 +34,7 @@ devtools::install_github("vincenzocoia/powers")
 See the vignette for more extensive use, but here's an example:
 
 ```{r example}
-powers::reciprocal(2)
+powers::box_cox_trans(1:10,2,2,plot_it=TRUE)
 ```
 
 ## For Developers

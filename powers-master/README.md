@@ -18,7 +18,7 @@ You can install powers from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+devtools::install_github("STAT545-UBC-students/hw07-g-ziyan/tree/master/powers-master")
 ```
 
 ## Example
@@ -26,9 +26,12 @@ devtools::install_github("vincenzocoia/powers")
 See the vignette for more extensive use, but here’s an example:
 
 ``` r
-powers::reciprocal(2)
-#> [1] 0.5
+powers::box_cox_trans(1:10,2,2,plot_it=TRUE)
 ```
+
+![](README-example-1.png)<!-- -->
+
+    #>  [1]   8  15  24  35  48  63  80  99 120 143
 
 ## For Developers
 

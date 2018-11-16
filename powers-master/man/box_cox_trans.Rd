@@ -2,23 +2,31 @@
 % Please edit documentation in R/box_cox_trans.R
 \name{box_cox_trans}
 \alias{box_cox_trans}
+\alias{inv_box_cox_trans}
 \title{Apply Box-Cox transformation}
 \usage{
 box_cox_trans(x, a, b = 0, plot_it = FALSE)
+
+inv_box_cox_trans(x, a, b = 0, plot_it = FALSE)
 }
 \arguments{
-\item{x}{Vector to raise to transform.}
+\item{x}{Vector to raise to transform. And the value should be larger
+than -b.}
 
-\item{a}{First parameter.}
+\item{a}{Power parameter.}
 
-\item{b}{Second parameter.}
+\item{b}{Shift parameter. 0 by default.}
+
+\item{plot_it}{Display a plot of \code{x} vs the output? Use logical.
+\code{FALSE} by default.}
 }
 \value{
-A vector that is the box-cox trasformation of \code{x}.
+A vector that is the box-cox trasformation or inverse
+box-cox trasformation of \code{x}.
 }
 \description{
-This function returns the two-parameter Box-Cox transformations
-of a positive value
+This function returns the two-parameter Box-Cox transformation or
+inverse Box-Cox transformation of a vector.
 }
 \details{
 If you really want to see more, check out the internal \code{\link{pow}}
@@ -28,4 +36,5 @@ and  \code{\link{log}} function that depends on.
 box_cox_trans(5,0)
 box_cox_trans(5,4)
 box_cox_trans(5,2,4)
+inv_box_cox_trans(5,2,4,plot_it=True)
 }

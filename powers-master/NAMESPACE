@@ -2,5 +2,6 @@
 
 export(box_cox_trans)
 export(cube)
+export(inv_box_cox_trans)
 export(reciprocal)
 export(square)

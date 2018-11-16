@@ -41,9 +41,13 @@ It even comes with the ability to display its output in plot form!
 reciprocal(1:10, plot_it=TRUE)
 ```
 
-There is a kind of monotonic transformation named power transform that uses power functions.
+There is also a kind of monotonic transformation named power transform that uses power functions.
 
 ```{r}
 box_cox_trans(1:10,2,2,plot_it=TRUE)
 ```
 
+And you also could do the inverse Box-Cox transformation.
+```{r}
+inv_box_cox_trans(1:10,2,2,plot_it=TRUE)
+```
